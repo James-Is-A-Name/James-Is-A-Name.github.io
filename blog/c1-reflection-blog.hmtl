@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog Entry</title>
+    <meta charset="UTF-8">
+    <!--
+        will be used later so this is a reminder
+        <link href="your-stylesheet-link-here.css" rel="stylesheet" type="text/css">
+    -->
+  </head>
+  
+  <body>
+    <h1>An Entyr in the blog</h1>
+    <p>
+        The contents/actual substance of said blog
+    </p>
+  
+  </body>
+</html>
