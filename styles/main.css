@@ -1,11 +1,29 @@
 
-
-
 body{
-    height: 100vh;
+    margin: 0;
     background: linear-gradient(45deg, white 60%, gray);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1{
+    margin: auto;
+    width: 70%;
+    height: 10%;
+    text-align: center;
     border-bottom: 1px solid;
+}
+
+.sidebar-left{
+    position: absolute;
+    top: 10%;
+    width: 20%;
+    margin: 0px 80px 0px 0px;
+    left: 0%;
+    text-align: left;
+}
+.main-content{
+    position: absolute;
+    top: 10%;
+    left: 30%;
 }
