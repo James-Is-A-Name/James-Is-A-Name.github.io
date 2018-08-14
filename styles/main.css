@@ -1,10 +1,10 @@
 
 
 
-.body{
+body{
     background: linear-gradient(45deg, white 60%, gray);
 }
 
-.h1{
+h1{
     border-bottom: 1px solid;
 }
