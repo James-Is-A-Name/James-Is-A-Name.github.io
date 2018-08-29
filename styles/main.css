@@ -1,7 +1,14 @@
+
+body{
+    background-color: rgba(220,220,220,1);
+}
+
 .header-section{
     background-color: rgba(70,220,70,0.2);
     height: 200px;
     border-bottom: solid 1px;
+    
+    text-align: center;
 }
 
 .logo-space{
@@ -9,14 +16,21 @@
 }
 
 .main-title{
+    padding-top: 50px;
     text-align: center;
 }
 .content-section{
-    height: 880px;
+    height: 900px;
+
+    //avoid annoying single pixel gap thing
+    background: linear-gradient(90deg,rgba(220,220,220,1) 5%,white 10%,white 95%,rgba(220,220,220,1));
+    //background: white;
 }
 .navigation-section{
     border-right: solid 1px; 
     height: 100%;
+
+    background: linear-gradient(90deg,rgba(220,220,220,1),white);
 }
 .entry-section{
     height: 100%;
@@ -24,4 +38,11 @@
 .preview-section{
     border-left: solid 1px; 
     height: 100%;
+
+    background: linear-gradient(-90deg,rgba(220,220,220,1),white);
+}
+
+
+.question{
+    text-align: center;
 }
