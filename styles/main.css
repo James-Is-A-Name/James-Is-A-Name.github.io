@@ -64,19 +64,37 @@ body{
 
 
 @media (max-width: 550px){
-    .content-section{
+    
+    .navigation-section{
+        text-align: center;
+    }
+    .content-section{       
+        background: rgba(220,220,220,1);
     }
     .entry-section{
         visibility: hidden;
+        height: 1px;
+    }
+    .preview-section{
+        visibility: hidden;
+        height: 1px;
     }
 }
 @media (min-width: 550px){
     
     .navigation-section{
+        text-align: right;
     }
     .content-section{
+        background: linear-gradient(90deg,rgb(220,220,220) 5%,white 10%,white 95%,rgb(220,220,220));
     }
     .entry-section{
         visibility: visible;
+        height: 100%;
+    }
+    
+    .preview-section{
+        visibility: visible;
+        height: 100%;
     }
 }
