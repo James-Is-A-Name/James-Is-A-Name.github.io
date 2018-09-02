@@ -39,6 +39,15 @@ body{
     padding-right: 5px;
     width: 100%;
 }
+.home-link{
+    padding-left: 5px;
+    padding-right: 5px;
+
+    visibility: hidden;
+
+    border: solid 2px; 
+    width: 100%;
+}
 
 .entry-section{
     text-align: center;
