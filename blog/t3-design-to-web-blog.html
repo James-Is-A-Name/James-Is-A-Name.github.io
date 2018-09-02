@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Design to Page</title>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    
+    <!--
+      <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    -->
+    <link rel="stylesheet" type="text/css" href="/styles/main.css">
+    <link rel="stylesheet" type="text/css" href="/styles/blog.css">
+
+    <!--Will get a proper icon later maybe-->
+    <link rel="icon" type="image/png" href="https://via.placeholder.com/350x150">
+
+    <!--a simple font to change the style-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+
+    <!-- To get around auto height not allowing internal items to scale to its length -->
+    <style>
+      .content-section{
+        height: 2800px;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-section">
+        <div class="row">
+          <div class="three columns logo-space">
+            <h2>A Logo Maybe</h2>
+          </div>
+
+          <div class="six columns main-title">
+            <h1>Design to Web Blog</h1>
+          </div>
+
+          <div class="three columns balance-thing">
+            <h3>Something For Balance</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section row">
+        <div class="three columns navigation-section">
+          <h3>Navigation</h3>
+          <a class="button home-link" href="/index.html">home</a>
+          <a class="button blog-link" href="/blog/c1-reflection-blog.html">Reflection</a>
+          <a class="button blog-link" href="/blog/c1-time-and-habits-blog.html">Time and habits</a>
+          <a class="button blog-link" href="/blog/t2-html-css-dom-p1.html">HTML, CSS and DOM p1</a>
+          <a class="button blog-link" href="/blog/t2-html-css-dom-p2.html">HTML, CSS and DOM p2</a>
+          <a class="button blog-link" href="/blog/c2-emotional-intelligence.html">Mindfulness</a>
+          <a class="button blog-link hide-this" href="/blog/t3-design-to-web-blog.html">Design to Page</a>
+        </div>
+        
+        <div class="six columns entry-section">
+
+          <h4 class="question">What is a response site and why is it important?</h4>
+          <p class="answer">
+            A responsive website is one that adapts to how it is viewed be it a small mobile phone or a large computer display.<br>
+            The importance is to accommodate the fact that people interact with things in different but will still want the same information.
+          </p>
+
+          <h4 class="question">What is mobile first design and why is it important?</h4>
+          <p class="answer">
+            Mobile first design is having the Mobile design be the prime focus when starting.<br>
+            The reason for starting with mobile is that it is small with space being a premium so it forces the design to be stripped down to essentials.
+            The idea is its easier to add bonus parts than to remove things which might be vital.
+          </p>
+          
+          <h4 class="question">What are frameworks?</h4>
+          <p class="answer">
+            Frameworks are tools for a web page that help by giving foundations for common elements and designs.<br>
+            The pros of this is less time needed on fidly little parts to get a passable design in place.
+            the cons are it add its own complexity that needs to be learned and can be restrictive when trying new designs
+          </p>
+
+          <h4 class="question">What is a wireframe and why use it?</h4>
+          <p class="answer">
+            A wireframe is a barebones example of a page with the physical layout of items in place.<br>
+            It is useful as a guide as it can be quickly created and then used as a reference to aim for. It also helps identify the important aspects of a design.
+          </p>
+
+          <hr>
+          
+          <!-- question isnt really the best description but just for consistent asthetics -->
+          <h4 class="question">Inital Wireframes</h4>
+          <figure class="desktop-design-image">
+              <img src="/images/desktop-index-page.png" alt="Desktop index design image" style="width:100%">
+              <figcaption>Desktop index design</figcaption>
+          </figure>
+          <figure class="desktop-design-image">
+              <img src="/images/desktop-blog-page.png" alt="Desktop blog design image" style="width:100%">
+              <figcaption>Desktop blog design</figcaption>
+          </figure>
+
+          <figure class="mobile-design-image">
+            <img src="/images/mobile-blog-page.png" alt="Desktop blog design image" style="width:100%">
+            <figcaption>Mobile index design</figcaption>
+          </figure>
+          <figure class="mobile-design-image">
+            <img src="/images/mobile-blog-page.png" alt="Desktop blog design image" style="width:100%">
+            <figcaption>Mobile blog design</figcaption>
+          </figure>
+
+          <!-- question isnt really the best description but just for consistent asthetics -->
+          <h4 class="question">Difficult aspects of the chosen wireframe</h4>
+          <p class="answer">
+            The sizing of components in comparison to the height of the screen continues to cause issue.<br>
+            The rearanging of components between the two display sizes was left out as it seemed like it would require doubling up the items and hidding one or the other.<br>
+            The framework used (getskeleton.com) works off different pixel widths rather than display ratios which does not work nicly with high resolution mobile screens.<br>
+            Having a design with components that should fix to the side of the window and stay at a set size were a bit difficult so ignored.
+          </p>
+        </div>
+      
+        <div class="three columns preview-section">
+          <div class="row">
+            <div class="six columns">
+              <a class="button blog-link" href="/blog/c2-emotional-intelligence.html">previous</a>
+            </div>
+            <div class="six columns">
+              <a class="button blog-link" href="/index.html">next</a>
+            </div>
+          </div>
+          <div class="row">
+            <h3>Previous Blog Thing</h3>
+            <p>an overview of what it has. maybe a list of the main questions</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
