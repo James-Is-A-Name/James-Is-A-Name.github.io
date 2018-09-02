@@ -79,6 +79,9 @@ body{
         visibility: hidden;
         height: 1px;
     }
+    .balance-thing{
+        visibility: hidden;
+    }
 }
 @media (min-width: 550px){
     
