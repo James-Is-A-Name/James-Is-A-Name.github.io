@@ -1,0 +1,50 @@
+
+
+.home-link{
+    visibility: visible;
+}
+
+@media (max-width: 550px){
+    
+    .navigation-section{
+        text-align: center;
+        visibility: hidden;
+        height: 1px;
+    }
+    .content-section{       
+        background: rgba(220,220,220,1);
+    }
+    .entry-section{
+        visibility: visible;
+
+        border-right: solid 1px; 
+        height: 100%;
+
+        background: linear-gradient(90deg,rgba(220,220,220,1),white);
+    }
+    .preview-section{
+
+        visibility: visible;
+
+        border-top: solid 1px; 
+        background: linear-gradient(-90deg,rgba(220,220,220,1),white);
+        
+        
+        padding-left: 0;
+        text-align: center;
+
+        height: 50%;
+    }
+    .balance-thing{
+        visibility: hidden;
+    }
+}
+@media (min-width: 550px){
+    
+    .main-title{
+        background: white ;
+        height: 200px;
+        padding-top: 100px;
+        padding-bottom: 10px;
+    }
+}
