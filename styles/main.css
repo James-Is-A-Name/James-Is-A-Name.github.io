@@ -70,6 +70,9 @@ body{
 .answer{
     text-align: left;
 }
+.hide-this{
+    visibility: hidden;
+}
 
 
 @media (max-width: 550px){
