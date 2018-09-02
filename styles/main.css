@@ -74,6 +74,15 @@ body{
     visibility: hidden;
 }
 
+.desktop-design-image{
+    max-width: 400px;
+    margin: auto;
+}
+.mobile-design-image{
+    max-width: 250px;
+    margin: auto;
+}
+
 
 @media (max-width: 550px){
     
