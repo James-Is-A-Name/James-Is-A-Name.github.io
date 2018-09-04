@@ -11,7 +11,8 @@
         visibility: hidden;
         height: 1px;
     }
-    .content-section{       
+    .content-section{
+        height: auto;
         background: rgba(220,220,220,1);
     }
     .entry-section{
